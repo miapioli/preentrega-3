@@ -119,7 +119,7 @@ const generarTarjetas = (productos) => {
       imagen.src = producto.imagen;
       imagen.alt = producto.producto;
     } else {
-      imagen.src = "imagen_por_defecto.jpg";
+      imagen.src = "img/imagen_por_defecto.jpg";
       imagen.alt = "Imagen no disponible";
     }
     botonAgregar.addEventListener("click", () => {
